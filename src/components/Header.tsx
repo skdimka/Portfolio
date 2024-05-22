@@ -1,11 +1,14 @@
-import React from "react";
-import { ReactSVG } from "react-svg";
+import React from 'react';
+import { ReactSVG } from 'react-svg';
 
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <ReactSVG src="/headerLogo.svg" />
-      <nav className="header__nav">
+      <div className="header-logo">
+        <ReactSVG src="./svg/headerLogo.svg" className="header-logo--svg" />
+        <div className="header-logo--text">Skdimka</div>
+      </div>
+      <nav className="header-nav">
         <ul>
           <li>
             <a href="/">Home</a>
@@ -16,9 +19,11 @@ const Header: React.FC = () => {
           <li>
             <a href="/contact">Contact</a>
           </li>
+          <li>
+            <a href="/project">Project</a>
+          </li>
         </ul>
       </nav>
-      <button className="header__login">Login</button>
     </header>
   );
 };
