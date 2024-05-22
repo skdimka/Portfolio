@@ -5,7 +5,7 @@ interface SectionHomeProps {}
 
 const SectionHome: FC<SectionHomeProps> = () => {
   return (
-    <section className="profile-section">
+    <section className="section profile">
       <div className="profile-description">
         <h1 className="profile-description__heating">
           Front-End React Developer
@@ -15,16 +15,16 @@ const SectionHome: FC<SectionHomeProps> = () => {
           but I'm ready for adventure
         </p>
         <div className="profile-description__social">
-          <a
-            href="https://github.com/skdimka"
-            className="profile-description__social-svg"
-          >
-            <ReactSVG src="./svg/github.svg" />
+          <a href="https://github.com/skdimka">
+            <ReactSVG
+              src="./svg/github.svg"
+              className="profile-description__social-svg"
+            />
           </a>
         </div>
       </div>
       <div className="profile-photo">
-        <img src="../profilePhoto.jpg" alt="profile-photo__img" />
+        <img src="../images/profilePhoto.jpg" alt="profile-photo__img" />
       </div>
     </section>
   );

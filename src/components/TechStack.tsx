@@ -5,7 +5,7 @@ interface TechStackProps {}
 
 const TechStack: FC<TechStackProps> = () => {
   return (
-    <div className="techStack">
+    <div className="techStack section">
       <h5 className="techStack-text">Tech Stack</h5>
       <div className="techStack-container">
         <ReactSVG src="./svg/html.svg" className="techStack-container__svg" />
