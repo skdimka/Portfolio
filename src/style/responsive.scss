@@ -29,7 +29,6 @@
 
       &__body {
         font-size: 15px;
-        line-height: 20px;
       }
 
       &__social {
@@ -95,6 +94,21 @@
 @media (max-width: 425px) {
   .header {
     max-height: 20px;
+  }
+
+  .profile {
+    &-description {
+      &__heating {
+        margin: 5px auto;
+        font-size: 30px;
+        line-height: 30px;
+      }
+
+      &__body {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
   }
 
   .project-beautyWorld-photo {
