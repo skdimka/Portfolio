@@ -34,11 +34,17 @@ const SmartHome: FC<SmartHomeProps> = () => {
         </div>
 
         <div className="project-smartHome__photo">
-          <img
-            src="./images/smartHome.png"
-            alt="smartHome"
-            className="project-smartHome__photo-png"
-          />
+          <a
+            href="http://5.35.98.199/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./images/smartHome.png"
+              alt="smartHome"
+              className="project-smartHome__photo-png"
+            />
+          </a>
         </div>
       </section>
     </>

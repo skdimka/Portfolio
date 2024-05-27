@@ -8,11 +8,17 @@ const BeatyWorld: FC<BeatyWorldProps> = () => {
     <>
       <section className="project section beautyWorld">
         <div className="project-photo">
-          <img
-            src="./images/beautyWorld.png"
-            alt="beautyWorld"
-            className="project-photo__png"
-          />
+          <a
+            href="https://skdimka-beauty-world.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./images/beautyWorld.png"
+              alt="beautyWorld"
+              className="project-photo__png"
+            />
+          </a>
         </div>
         <div className="project-about">
           <h1 className="project-about__name">Beauty World</h1>
