@@ -5,7 +5,7 @@ interface AboutProps {}
 
 const About: FC<AboutProps> = () => {
   return (
-    <section className="section about">
+    <section className="section about" id="about">
       <div className="about-description__social">
         <a href="https://instagram.com/skdimka">
           <ReactSVG

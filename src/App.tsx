@@ -1,22 +1,26 @@
 import React from 'react';
 import Header from './components/Header';
 import SectionHome from './components/Home';
-import Project from './components/BeautyWorld';
 import TechStack from './components/TechStack';
 import SmartHome from './components/SmartHome';
 import About from './components/About';
+import Footer from './components/Footer';
+import BeatyWorld from './components/BeautyWorld';
 
 function App() {
   return (
     <div className="App">
-      <div className="home">
+      <div className="home" id="home">
         <Header />
         <SectionHome />
         <TechStack />
       </div>
       <About />
-      <SmartHome />
-      <Project />
+      <div className="projects" id="project">
+        <SmartHome />
+        <BeatyWorld />
+      </div>
+      <Footer />
     </div>
   );
 }

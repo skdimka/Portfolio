@@ -35,13 +35,8 @@ const BurgerMenu: React.FC = () => {
             </a>
           </li>
           <li className="burger-menu__item">
-            <a href="#services" className="burger-menu__link">
-              Services
-            </a>
-          </li>
-          <li className="burger-menu__item">
-            <a href="#contact" className="burger-menu__link">
-              Contact
+            <a href="#project" className="burger-menu__link">
+              Project
             </a>
           </li>
         </ul>
