@@ -1,0 +1,105 @@
+@media (max-width: 1200px) {
+  //   .section {
+  //     background-color: aqua;
+  //   }
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-height: 30px;
+  }
+  .beautyWorld {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    &-description {
+      text-align: center;
+
+      &__heating {
+        margin: 10px auto;
+        font-size: 40px;
+      }
+
+      &__body {
+        font-size: 15px;
+        line-height: 20px;
+      }
+
+      &__social {
+        align-self: center;
+      }
+    }
+  }
+
+  .techStack {
+    flex-direction: column;
+    padding: 20px;
+    &-text {
+      border-right: none;
+      border-bottom: 1px solid black;
+      padding: 10px;
+    }
+  }
+
+  .about {
+    flex-direction: column-reverse;
+
+    &-description {
+      align-self: center;
+      border: none;
+
+      &__social {
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+  }
+
+  .project-smartHome {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    &-nav {
+      display: none;
+    }
+  }
+
+  .techStack {
+    margin-bottom: 20px;
+
+    &-container {
+      justify-content: center;
+      padding: 0 10px;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (min-width: 501px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    max-height: 20px;
+  }
+
+  .project-beautyWorld-photo {
+    max-width: 305px;
+    &__png {
+      width: 300px;
+    }
+  }
+}

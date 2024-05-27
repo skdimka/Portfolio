@@ -7,7 +7,7 @@ const BeatyWorld: FC<BeatyWorldProps> = () => {
   return (
     <>
       <section className="project section beautyWorld">
-        <div className="project-photo">
+        <div className="project-beautyWorld-photo">
           <a
             href="https://skdimka-beauty-world.netlify.app"
             target="_blank"
@@ -16,7 +16,7 @@ const BeatyWorld: FC<BeatyWorldProps> = () => {
             <img
               src="./images/beautyWorld.png"
               alt="beautyWorld"
-              className="project-photo__png"
+              className="project-beautyWorld-photo__png"
             />
           </a>
         </div>

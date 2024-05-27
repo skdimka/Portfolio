@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg';
+import BurgerMenu from './BurgerMenu';
 
 const Header: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const Header: React.FC = () => {
         <ReactSVG src="./svg/headerLogo.svg" className="header-logo--svg" />
         <div className="header-logo--text">Skdimka</div>
       </div>
+      <BurgerMenu />
       <nav className="header-nav">
         <ul>
           <li>
