@@ -1,10 +1,11 @@
-@media (max-width: 1200px) {
-  //   .section {
-  //     background-color: aqua;
-  //   }
-}
-
 @media (max-width: 768px) {
+  .profile {
+    padding: 30px;
+
+    &-photo {
+      margin-top: 10px;
+    }
+  }
   .header {
     max-height: 30px;
   }
