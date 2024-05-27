@@ -1,5 +1,4 @@
 .profile {
-  // align-items: center;
   padding: 40px 20px;
 
   &-description {
@@ -10,7 +9,6 @@
     text-align: left;
     padding-right: 20px;
     margin-bottom: 20px;
-    // margin: 40px;
 
     &__heating {
       margin: 20px auto;
@@ -40,10 +38,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 250px;
+    max-height: 300px;
     overflow: hidden;
-    max-width: 300px;
+    border-radius: 32px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
 
     &__img {
+      right: 20px;
       max-width: 100%;
       height: auto;
     }

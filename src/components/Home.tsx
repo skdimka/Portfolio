@@ -24,7 +24,11 @@ const SectionHome: FC<SectionHomeProps> = () => {
         </div>
       </div>
       <div className="profile-photo">
-        <img src="../images/profilePhoto.jpg" alt="profile-photo__img" />
+        <img
+          src="../images/profilePhoto.jpg"
+          alt="profile-photo__img"
+          height="300"
+        />
       </div>
     </section>
   );
